@@ -4,35 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Rolim | Home</title>
+ <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
 <header>
-    <h1>Nathan Rolim</h1>
-    <div class="logo">NathanPortfolio</div>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Resume</a>
-    </nav>
+   <div class="logo">
+        <img src="images/logo.png" alt="Nathan Portfolio Logo">
+    </div>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="projects.html">~/projects</a>
-        <a href="resume.html">~/resume</a>
+        <a href="page2.html">~/projects</a>
+        <a href="page3.html">~/resume</a>
     </nav>
 </header>
 
 <main>
+ <!-- HERO -->
 
-    
+    <section class="hero">
 
+        <div class="hero-console">
+
+            <p class="terminal">$ whoami</p>
+
+            <h1>Nathan Rolim</h1>
+
+            <h2>SAP Basis & Cloud Operations</h2>
+
+            <p>
+                I keep critical ERP systems running, automate operations,
+                and reduce the friction between infrastructure and the
+                business.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="page2.html">[ view projects ]</a>
+
+                <a href="files/resume.pdf">[ download resume ]</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg"
+                 alt="Nathan Rolim">
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURE CARDS -->
+
+    <section class="features">
+
+        <article class="card">
+
+            <h3>> sap_basis</h3>
+
+            <p>
+                SAP installations, upgrades,
+                migrations, transports,
+                monitoring, and performance tuning.
+            </p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>> cloud_ops</h3>
+
+            <p>
+                Cloud administration,
+                monitoring, automation,
+                and infrastructure reliability.
+            </p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>> automation</h3>
+
+            <p>
+                Bash, Python,
+                PowerShell, and scripting
+                to reduce operational work.
+            </p>
+
+        </article>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <div class="about-text">
+
+            <p class="terminal">$ cat about.md</p>
+
+            <h2>Who I Am</h2>
+
+            <p>
+                I am an infrastructure professional with experience
+                operating SAP and cloud environments. My background
+                spans SAP Basis administration, Cloud Operations,
+                and enterprise infrastructure support.
+            </p>
+
+            <p>
+                I work the way a systems operator thinks:
+                monitor, diagnose, automate, and document.
+                This portfolio showcases real projects and
+                production experience rather than simply
+                listing technologies.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="images/datacenter.jpg"
+                 alt="Infrastructure">
+
+        </div>
+
+    </section>
 </main>
 
 <footer>
+ <div>
 
+        <p class="terminal">$ contact</p>
+
+        <p>Email</p>
+
+        <p>LinkedIn</p>
+
+        <p>GitHub</p>
+
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="page2.html">~/projects</a>
+
+        <a href="page3.html">~/resume</a>
+
+    </nav>
     <p>&copy; 2026 Nathan Rolim</p>
 
 </footer>
