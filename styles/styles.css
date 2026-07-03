@@ -332,4 +332,183 @@ footer{
     gap:30px;
 
 }
+    .page-title{
+    margin:40px 0;
+}
+
+.page-title h1{
+    margin-top:10px;
+}
+
+.terminal{
+    color:#3E8E9C;
+    font-family:monospace;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+
+.resume-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:40px;
+    margin-bottom:60px;
+    align-items:start;
+}
+
+/* ---------- LEFT CONTENT ---------- */
+
+.resume-content section{
+    margin-bottom:50px;
+}
+
+.resume-content h2{
+    color:#C49A48;
+    text-transform:lowercase;
+    margin-bottom:20px;
+}
+
+/* ---------- SKILLS ---------- */
+
+.skill-row{
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:18px;
+}
+
+.skill-row h3{
+    width:120px;
+    color:#E5E5E5;
+    font-size:1rem;
+}
+
+.chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.chips span{
+    background:#1B2A41;
+    border:1px solid #3E8E9C;
+    color:#3E8E9C;
+    padding:8px 14px;
+    border-radius:4px;
+    font-size:.9rem;
+}
+
+/* ---------- EXPERIENCE ---------- */
+
+.job{
+    background:#1B2A41;
+    border:1px solid #324b6d;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+.job-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.job-header p{
+    color:#C49A48;
+}
+
+.job p{
+    line-height:1.7;
+}
+
+/* ---------- EDUCATION ---------- */
+
+.education{
+    background:#1B2A41;
+    border:1px solid #324b6d;
+    padding:25px;
+}
+
+.education p{
+    line-height:1.7;
+}
+
+/* ---------- CONTACT SIDEBAR ---------- */
+
+.contact-card{
+    background:#1B2A41;
+    border:1px solid #324b6d;
+    padding:25px;
+    text-align:center;
+}
+
+.contact-card img{
+    width:100%;
+    margin-bottom:20px;
+    border:2px solid #324b6d;
+}
+
+.contact-card h2{
+    color:#3E8E9C;
+    margin-bottom:20px;
+}
+
+.contact-card p{
+    margin-bottom:12px;
+}
+
+/* ---------- DOWNLOAD BUTTON ---------- */
+
+.button{
+    display:inline-block;
+    margin-top:25px;
+    text-decoration:none;
+    color:#3E8E9C;
+    border:2px solid #3E8E9C;
+    padding:12px 25px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#3E8E9C;
+    color:#0D1B2A;
+}
+
+/* ---------- TECH IMAGE ---------- */
+
+.tech-image{
+    margin:50px 0;
+}
+
+.tech-image img{
+    width:100%;
+    border:2px solid #324b6d;
+    display:block;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width:900px){
+
+.resume-grid{
+    grid-template-columns:1fr;
+}
+
+.skill-row{
+    flex-direction:column;
+}
+
+.skill-row h3{
+    width:auto;
+    margin-bottom:10px;
+}
+
+.job-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.contact-card{
+    order:-1;
+}
 }
